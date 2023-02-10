@@ -185,7 +185,7 @@
     animation-name: dotanimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-}    
+}  
 @keyframes dotanimation {
     0%{
         transform: translateY(0px);
@@ -404,7 +404,7 @@
     background-image: url(./images/projects/Image-Gallery.png);
 }
 #pj-2{
-    margin-left:120px;
+    margin-left:230px;
     background-image: url(./images/projects/parallax-Website.png);
 }
 .skills-container{
@@ -580,4 +580,164 @@ footer{
 .icon-wrapper{
     display: flex;
     gap: 1rem;
+}
+
+/***********************************************************************************/
+
+@media only screen and (max-width:317px) {
+    .container{
+        width: 310px;
+        margin: 0 auto;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .logo{
+        width: 40px;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 2rem;
+        padding: 0 1em;
+    }
+    .nav-items div{
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .hero-section{
+        display: flex;
+        position: relative;
+        /* justify-content: center; */
+        /* align-items: center; */
+    
+        gap: 0;
+        margin:1rem 0.1rem;
+        padding-top: 10px;
+        padding-bottom: 1rem;
+    }
+    .faded-text{
+        /* position: absolute; */
+        user-select: none;
+        font-size: 1em;
+        color: rgb(231,231,231);
+    
+        bottom:-7%;
+        left:-1%;
+        font-weight: bold;
+        transition: all 3s;
+    }
+    .hs-left{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        /* justify-content: center; */
+    }
+    .hs-right{
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+    .hs-heading{
+        font-size: 15px;
+        font-weight: 500;
+        color: #343d68;
+    }
+    .hs-subheading{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .hs-desc{
+        margin-top: 5px;
+        /* width: 30em; */
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .btn-hire {
+        background-color: var(--bgOrange);
+        width: fit-content;
+        color: white;
+        padding: 0.4rem 0.8rem;
+        box-shadow: 5px 5px 7px 0px #0000003f;
+        font-size: 12px;
+        cursor: pointer;
+        transition: all 0.5s;
+        font-weight: 500;
+        border: solid 1px transparent;
+        /* position: relative; */
+        z-index: 1;
+    }
+    .user-img img{
+        width:90px;
+        height:90px;
+        padding:0.1rem;
+        filter: grayscale(1);
+        transition: all 1s;
+        animation: sacleimage 5s linear infinite;
+        z-index: -13;
+    }
+    #dot{
+        width: 15px;
+        height:15px;
+    }
+    .icon-dot{
+        /* z-index: 3; */
+        bottom:-0.1rem;
+        right:0;
+    }  
+    @keyframes dotanimation {
+        50%{
+            transform: translateY(-5px);
+        }
+
+    }
+    #cube{
+        width: 8px;
+        height: 8px;
+    }
+    .icon-cube{
+        top:-0.8em;
+        right:0.1em;
+    }
+    #circle{
+        width: 8px;
+        height: 8px;
+    }
+    .icon-circle{
+        /* z-index:9; */
+        left:0;
+        bottom:0;
+    } 
+     @keyframes shakeeffect {
+        50%{
+            left:1%;
+            bottom:5%;
+        }
+    }
+    #zigzags{
+        width: 10px;
+        height: 24px;
+    }
+    .icon-zigzags{
+        top:-0.5em;
+        left:0em;
+    }
+    #plus{
+        width: 8px;
+        height: 8px;
+    }
+    .icon-plus{
+        top:-20%;
+        left: 50%;
+    }
+    @keyframes shakeEffectPlus {
+        50%{
+            top:0.3%;
+            left:1;
+        }
+      }
 }

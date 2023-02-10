@@ -583,11 +583,12 @@ footer{
 }
 
 /***********************************************************************************/
-
+/* just
+checking */
 @media only screen and (max-width:317px) {
     .container{
         width: 310px;
-        margin: 0 auto;
+        margin: 0;
     }
     .navbar{
         display: flex;

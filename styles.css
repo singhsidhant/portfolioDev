@@ -625,7 +625,7 @@ footer{
     .faded-text{
         /* position: absolute; */
         user-select: none;
-        font-size: 1em;
+        font-size: 1.5em;
         color: rgb(231,231,231);
     
         bottom:-7%;
@@ -770,4 +770,23 @@ footer{
     #pj-2{
         margin-left:0;
     } 
+
+
+    .skills-container{
+        flex-direction: column; 
+        padding:2rem;
+        margin:5rem auto;
+        gap:40px;
+    }
+    .skill-container-left{
+        width:100%;
+    }
+    .skill-container-right{
+        width:100%;
+    }
+    .skill-fade-text{
+        font-size:3.5em;
+        bottom:-10.5%;
+        right:-6.9%;
+    }
 }

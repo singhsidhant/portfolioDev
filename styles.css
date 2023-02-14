@@ -675,8 +675,10 @@ footer{
         z-index: 1;
     }
     .user-img img{
-        width:90px;
-        height:90px;
+        /* width: 10rem;
+        height: 10rem; */
+        width:100px;
+        height:100px;
         padding:0.1rem;
         filter: grayscale(1);
         transition: all 1s;
@@ -742,7 +744,7 @@ footer{
             top:0.3%;
             left:1;
         }
-      }
+    }
 
     .page-header{
         font-size:50px;
@@ -790,8 +792,8 @@ footer{
     }
     .skill-faded-text{
         font-size:3.5em;
-        bottom:-11.5%;
-        right:2.9%;
+        bottom:-10.5%;
+        right:-0.1%;
     }
 
     .contact-us-heading{

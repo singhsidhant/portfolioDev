@@ -429,9 +429,9 @@
     justify-content: center;
     align-items:center
 }
-.skill-fade-text{
+.skill-faded-text{
     position:absolute;
-    font-size:15em;
+    font-size:13em;
     font-style:bold;
     color:rgb(231,231,231);
     bottom:-34.5%;
@@ -630,7 +630,7 @@ footer{
         color: rgb(231,231,231);
     
         bottom:-10%;
-        left:-5%;
+        left:-1%;
         font-weight: bold;
         transition: all 3s;
     }
@@ -754,8 +754,11 @@ footer{
        font-size:80px;
     }
     .p-n-left{
-        left:260px;
-        top:-20px;
+        left: 68%; 
+        /* right: 10em; */
+        top: -4%;
+        /* left:260px;
+        top:-20px; */
     }
     .p-n-right{
         right:-15px;
@@ -785,10 +788,10 @@ footer{
     .skill-container-right{
         width:100%;
     }
-    .skill-fade-text{
+    .skill-faded-text{
         font-size:3.5em;
-        bottom:-10.5%;
-        right:-6.9%;
+        bottom:-11.5%;
+        right:2.9%;
     }
 
     .contact-us-heading{
@@ -805,44 +808,40 @@ footer{
     }
 
     footer{
-        position: relative;
-        
-        height: 50vh;
-        
-        margin-top:-1px;
-        background-color: #343d68;
+
+        height: 25vh;
         padding:0;
     }
     .footer-wrapper{
-        display: flex;
+        /* display: flex; */
         /* flex-direction: column; */
         
         justify-content:space-between;
 
         align-items: flex-start;
-        gap:1rem;
+        /* gap:1rem; */
         padding:1.2rem;
     }
 
     .footer-faded-text{
-        position: absolute;
+        /* position: absolute; */
         /* padding: -4px; */
 
         left: -0.1em;
-        bottom:-3%;
+        bottom:-2%;
 
-        color:#535c87;
-        user-select:none;
+        /* color:#535c87; */
+        /* user-select:none; */
 
-        font-size:2.5em;
+        font-size:2em;
     }
     .link-wrapper{
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         gap:.2rem;
-        font-size: 20px;
+        /* font-size: 20px; */
     }
-    .link-wrapper div a{
+    /* .link-wrapper div a{
         color: white;
         text-decoration: none;
         transition: all 0.5s;
@@ -853,7 +852,7 @@ footer{
     .icon-wrapper{
         display: flex;
         gap: 1rem;
-    }
+    } */
     
     
 }

@@ -70,6 +70,7 @@
 }
 .faded-text{
     /* position: absolute; */
+    position: fixed;
     user-select: none;
     font-size: 7em;
     color: rgb(231,231,231);

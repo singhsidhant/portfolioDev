@@ -401,11 +401,17 @@
 .project-card:hover .project-content{
     transform: scale(1.1);
 }
-
 #pj-1{
-    background-image: url(./images/projects/Image-Gallery.png);
+    background-image: url(./images/projects/top-courses.png);
 }
 #pj-2{
+    margin-left:230px;
+    background-image: url(./images/projects/razorpay.png);
+}
+#pj-3{
+    background-image: url(./images/projects/Image-Gallery.png);
+}
+#pj-4{
     margin-left:230px;
     background-image: url(./images/projects/parallax-Website.png);
 }

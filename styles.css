@@ -400,7 +400,7 @@
 }
 .project-card:hover .project-content{
     transform: scale(1.1);
-}
+} 
 #pj-1{
     background-image: url(./images/projects/top-courses.png);
 }

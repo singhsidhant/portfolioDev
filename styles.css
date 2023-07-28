@@ -138,6 +138,12 @@
     border: solid 3px var(--bgOrange);
     color: black;
   }
+  #resume-btn{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 1rem;
+}
   .hs-left a{
     text-decoration: none;
   }
@@ -375,6 +381,7 @@
     font-size:50px;
     font-weight: bold;
     line-height:3rem;
+    /* text-align: center; */
 }
 .project-subheading{
     width:70%;
@@ -402,18 +409,25 @@
     transform: scale(1.1);
 } 
 #pj-1{
-    background-image: url(./images/projects/top-courses.png);
+    background-image: url(./images/projects/studyNotion\ \(2\).png);
 }
 #pj-2{
     margin-left:230px;
-    background-image: url(./images/projects/razorpay.png);
+    background-image: url(./images/projects/plan-with-me.png);
 }
 #pj-3{
-    background-image: url(./images/projects/Image-Gallery.png);
+    background-image: url(./images/projects/top-courses.png);
 }
 #pj-4{
     margin-left:230px;
-    background-image: url(./images/projects/parallax-Website.png);
+    background-image: url(./images/projects/razorpay.png);
+}
+#pj-5{
+    background-image: url(./images/projects/random-gif.png);
+}
+#pj-6{
+    margin-left:230px;
+    background-image: url(./images/projects/dev-detective.png);
 }
 .skills-container{
     position:relative;
@@ -647,6 +661,12 @@ footer{
         gap: 1rem;
         /* justify-content: center; */
     }
+    #resume-btn{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        gap: 1rem;
+    }
     .hs-right{
         position: absolute;
         top: 1%;
@@ -783,6 +803,12 @@ footer{
     #pj-2{
         margin-left:0;
     } 
+    #pj-4{
+        margin-left:0;
+    }
+    #pj-6{
+        margin-left:0;
+    }
 
 
     .skills-container{
